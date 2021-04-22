@@ -163,4 +163,7 @@ title(xlab = "Central Region vs South Region")
 title(ylab = "Crime Count")
 
 
-
+#---
+#Q10|
+#---
+write.csv(london_crime, file = 'london-crime-modified.csv')
